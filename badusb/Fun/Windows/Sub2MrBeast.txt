@@ -1,0 +1,22 @@
+REM Subscribe to MrBeast
+REM Platform: Windows
+GUI r
+DELAY 300
+STRING powershell Start-Process https://youtube.com/
+ENTER
+DELAY 10000
+TAB
+DELAY 10
+TAB
+DELAY 10
+TAB
+DELAY 10
+TAB
+DELAY 10
+STRING MrBeast		
+DELAY 300
+ENTER
+DELAY 5000
+TAB
+TAB
+ENTER
