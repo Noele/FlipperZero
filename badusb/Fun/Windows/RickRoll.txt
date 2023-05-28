@@ -1,0 +1,6 @@
+REM Opens a webpage with a Rickroll video on connecting, best used with Bad BT
+REM Platform: Windows
+GUI r
+DELAY 300
+STRING powershell Start-Process https://shattereddisk.github.io/rickroll/rickroll.mp4
+ENTER

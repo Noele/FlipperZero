@@ -1,13 +1,9 @@
 REM Opens a webpage with a Rickroll video on connecting, best used with Bad BT
+REM Platform: IOS
+DELAY 300
 GUI h
-DELAY 150
+DELAY 300
 GUI SPACE
-DELAY 800
-STRING Safari
-DELAY 800
-ENTER
-DELAY 2000
-GUI SPACE
-DELAY 500
+DELAY 300
 STRING https://shattereddisk.github.io/rickroll/rickroll.mp4
 ENTER
