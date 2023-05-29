@@ -1,0 +1,152 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0A F5 00 00
+# 
+name: Vol +
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1E E1 00 00
+# 
+name: Vol -
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 5F A0 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 50 AF 00 00
+# 
+name: Ch +
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1F E0 00 00
+# 
+name: Ch -
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 5C A3 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 8A 75 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 5E A1 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 56 A9 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 5B A4 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 58 A7 00 00
+# 
+name: Netflix
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 6E 91 00 00
+# 
+name: Prime
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 8D 72 00 00
+# 
+name: Youtube
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 6A 95 00 00
+# 
+name: Freeview
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 6F 90 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 53 AC 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 57 A8 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 6D 92 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 4E B1 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 5A A5 00 00
+# 
+name: Pause/Play
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 4F B0 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 4B B4 00 00
+# 
+name: Fast Forward
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 4A B5 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0C F3 00 00
+# 
+name: Sub
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 44 BB 00 00
