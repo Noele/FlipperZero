@@ -1,0 +1,11 @@
+App(
+    appid="penguin",
+    name="Penguin",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="penguin_main",
+	fap_icon="penguin_10px.png",
+    requires=["gui"],
+    stack_size=1 * 1024,
+    fap_category="ZoeysAwesomeStuff",
+    fap_icon_assets="images",
+)
