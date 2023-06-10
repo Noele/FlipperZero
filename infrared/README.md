@@ -6,3 +6,4 @@
 
 [Sharp Aquos.ir](https://www.amazon.co.uk/dp/B08RXB1PYB)
 
+[Beldray Climate Dome.ir](https://www.amazon.co.uk/dp/B08QSMBT9Y)
